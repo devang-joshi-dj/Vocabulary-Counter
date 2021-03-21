@@ -15,6 +15,7 @@ window.onload = (): void => {
   paragraphs.innerHTML = String(0);
 
   const filterInput = (input: Array<string>): Array<string> => {
+    // function to filter all empty or null elements in given array and return it
     return input.filter(element => {
       return element != null && element != '' && element != ' ';
     });

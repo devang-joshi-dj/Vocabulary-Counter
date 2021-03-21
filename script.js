@@ -11,6 +11,7 @@ window.onload = function () {
     sentences.innerHTML = String(0);
     paragraphs.innerHTML = String(0);
     var filterInput = function (input) {
+        // function to filter all empty or null elements in given array and return it
         return input.filter(function (element) {
             return element != null && element != '' && element != ' ';
         });
