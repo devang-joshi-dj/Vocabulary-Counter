@@ -49,7 +49,6 @@ html, body {
     flex-direction: row;
     align-items: baseline;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .info * {
@@ -73,4 +72,48 @@ html, body {
 
 .paragraphs {
     background-color: salmon;
+}
+
+.info div span {
+    margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    #input {
+        width: 500px;
+    }
+    .info * {
+        margin: 2px;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #input {
+        width: 300px;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .info * {
+        margin: 5px;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #input {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-height: 680px) {
+    #input {
+        height: 300px;
+    }
 }
