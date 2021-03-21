@@ -54,13 +54,13 @@ html, body {
 
 .info * {
     margin: 5px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 10px;
     border-radius: 30px;
 }
 
 .characters {
-    background-color: yellowgreen;
+    background-color: seagreen;
 }
 
 .words {
@@ -69,4 +69,8 @@ html, body {
 
 .sentences {
     background-color: coral;
+}
+
+.paragraphs {
+    background-color: salmon;
 }
